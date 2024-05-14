@@ -27,8 +27,20 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!--  -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        ul>li{
+            font-size: 16px;
+            text-align: justify;
+        }
+        li::marker{
+            color: #BF1419;
+        }
+    </style>
 </head>
 
 <body>
@@ -84,21 +96,34 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid header bg-white p-0">
-            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-                <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-5 animated fadeIn mb-4">Every bite fuels <span class="text-primary">Your Bag</span> Of Happiness</h1>
-                    <!-- Every bite fuels your adventure! Bon appétit! -->
-                    <p class="animated fadeIn mb-4 pb-2">We Will Fix The Situation Through <q>THE LUNCH BAG.</q></p>
-                    <a href="#about" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
-                </div>
-                <div class="col-md-6 animated fadeIn">
+        <div class="container-fluid header bg-white p-0 mt-lg-1">
+            <div class="row g-0 align-items-sm-start flex-column-reverse flex-md-row">
+                <!-- <div class="col-md-6 p-5 mt-lg-0">
+                    <h2 class="animated fadeInDownBig mb-0">Students Not Eating <span class="lunch-bag-theme">Hot Lunch At School</span>?</h2>
+                    Every bite fuels your adventure! Bon appétit!
+                    <p class="text-justify animated fadeInRightBig mt-2 pb-0">Skipping lunch at school may be necessarily be bad for everyone, as long as your kids are still able to maintain a balanced and healthy diet overall.</p>
+                    <p class="animated fadeInDown">
+                        <ul class="animated fadeInDown">
+                            <li>
+                                <span class="lunch-bag-theme"><b>Nutritional balance:</b></span> This includes a mix of carbohydrates, proteins, healthy fats, vitamins, and minerals.
+                            </li>
+                            <li>
+                                <span class="lunch-bag-theme"><b>Energy levels:</b></span> Skipping lunch may lead to a dip in your energy levels during the afternoon, which could affect your ability to concentrate and perform well in school.
+                            </li>
+                            <li>
+                                <span class="lunch-bag-theme"><b>Hunger and cravings:</b></span> Skipping meals during the day may lead to excessive hunger by the time you get home.
+                            </li>
+                        </ul>
+                    </p>
+                    <a href="#about" class="btn btn-primary py-1 px-3 me-1 animated fadeIn">Know More</a>
+                </div> -->
+                <div class="col-lg-12 animated fadeIn">
                     <div class="owl-carousel header-carousel">
                         <div class="owl-carousel-item">
-                            <img class="img-fluid mt-5" src="img/carousel-1.jpg" alt="">
+                            <img class="img-fluid mt-3 p-1 border rounded-4" src="img/banner-1.png" alt="">
                         </div>
                         <div class="owl-carousel-item">
-                            <img class="img-fluid mt-5" src="img/carousel-2.jpg" alt="">
+                            <img class="img-fluid mt-3 p-1 border rounded-4" src="img/banner-2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -152,7 +177,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="mb-4">WHAT IF YOUR KIDS DON'T EAT <span class="lunch-bag-theme">HOT</span> FOOD?</h1>
+                        <h2 class="mb-4 text-justify">What If Your Kids Don't Eat <span class="lunch-bag-theme">Hot</span> Food?</h2>
                         <h5 class="mb-4">Issues with packing Early Morning <span class="lunch-bag-theme">LUNCH!!!</span></h5>
                         <p><i class="fa fa-check text-primary me-3"></i>Loss of Nutrition Value</p>
                         <p><i class="fa fa-check text-primary me-3"></i>Initial Temperature Drop Safety Concerns</p>
@@ -245,7 +270,7 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Benefits of How We Pack</h1>
+                    <h2 class="mb-3">Benefits of How We Pack</h2>
                         <p class="text-start mx-2 text-black-100"><i class="fa fa-check text-primary me-3 text-end"></i>Hot food offers several benefits, both in terms of <span class="lunch-bag-theme"><b>TASTE & HEALTH!</b></span></p>
                         <p class="text-start mx-2"><i class="fa fa-check text-primary me-3"></i><span class="lunch-bag-theme"><b>Enhanced Flavour: </b></span>Heat can intensify the flavors of food by releasing Aroma.</p>
                         <p class="text-start mx-2"><i class="fa fa-check text-primary me-3"></i><span class="lunch-bag-theme"><b>Aroma Compounds: </b></span>Makes the food taste richer and most satisfying.</p>
@@ -311,7 +336,7 @@
                 <div class="row g-0 gx-5 align-items-end">
                     <div class="col-lg-6">
                         <div class="text-start mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                            <h1 class="mb-3">Lunch Package Listing</h1>
+                            <h2 class="mb-3">Lunch Package Listing</h2>
                             <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</p>
                         </div>
                     </div>
@@ -321,10 +346,10 @@
                                 <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Featured</a>
                             </li>
                             <li class="nav-item me-2">
-                                <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Available Deliveries</a>
+                                <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">Deliveries</a>
                             </li>
                             <li class="nav-item me-0">
-                                <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">Available Take Away</a>
+                                <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">Take Aways</a>
                             </li>
                         </ul>
                     </div>
@@ -337,7 +362,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Deliveries</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Deliveries</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -357,7 +382,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Take Away</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Take Aways</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -368,7 +393,7 @@
                                     <div class="d-flex border-top">
                                         <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>(10 X 10 X 06) cm</small>
                                         <small class="flex-fill text-center border-end py-2"><i class="fa fa-water text-primary me-2"></i>Compartments: 3</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-star text-primary me-2"></i>4.3</small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-star text-primary me-2"></i>4.5</small>
                                     </div>
                                 </div>
                             </div>
@@ -377,7 +402,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Deliveries</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Deliveries</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -388,7 +413,7 @@
                                     <div class="d-flex border-top">
                                         <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>(10 X 10 X 06) cm</small>
                                         <small class="flex-fill text-center border-end py-2"><i class="fa fa-water text-primary me-2"></i>Compartments: 3</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-star text-primary me-2"></i>4.3</small>
+                                        <small class="flex-fill text-center py-2"><i class="fa fa-star text-primary me-2"></i>4.2</small>
                                     </div>
                                 </div>
                             </div>
@@ -397,7 +422,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Take Away</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Take Aways</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -417,7 +442,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Deliveries</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Deliveries</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -437,7 +462,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Take Away</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Take Aways</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -463,7 +488,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Deliveries</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Deliveries</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -482,7 +507,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Take Away</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Take Aways</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -501,7 +526,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Deliveries</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Deliveries</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -520,7 +545,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Take Away</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Take Aways</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -539,7 +564,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Deliveries</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Deliveries</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -559,7 +584,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Take Away</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Take Aways</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -585,7 +610,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Deliveries</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Deliveries</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -604,7 +629,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Take Away</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Take Aways</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -623,7 +648,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Deliveries</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Deliveries</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -642,7 +667,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Take Away</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Take Aways</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -661,7 +686,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Deliveries</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Deliveries</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -680,7 +705,7 @@
                                 <div class="Lunch Packing-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
                                         <a href=""><img class="img-fluid" src="img/property-11.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Available Take Away</div>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Take Aways</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home To School</div>
                                     </div>
                                     <div class="p-4 pb-0">
@@ -708,17 +733,17 @@
         <!-- Call to Action Start -->
         <div class="container-xxl py-5" id="contact">
             <div class="container">
-                <h1 class="mb-0 text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">Our Certified Agents</h1>
+                <h2 class="mb-0 text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">Our Certified Agents</h2>
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4">
-                        <div class="row g-5 align-items-center">
+                        <div class="row g-5 align-items-lg-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                                 <img class="img-fluid rounded w-100" src="img/contact-us.png" alt="">
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
-                                    <h1 class="mb-3">Contact With Our Certified Agent</h1>
-                                    <p></p>
+                                    <h3 class="mb-3">Contact With Our Certified Agent</h3>
+                                    <p>In order to provide all kids with a great selection and to ensure on time delivery of your meal, we reserve the right to limit the delivery partners depending on supply.</p>
                                 </div>
                                 <a href="contact.html" class="btn btn-primary py-3 px-4 mx-auto"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
                                 <!-- <a href="" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a> -->
@@ -735,7 +760,7 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Our Lunch Packing Agents</h1>
+                    <h2 class="mb-3">Our Lunch Packing Agents</h2>
                     <p>We are responsible for ensuring that orders are delivered promptly and efficiently. Also, We ensure that the orders are accurately picked up from the home and delivered to the right kids.</p>
                 </div>
                 <div class="row g-4">
@@ -782,7 +807,7 @@
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Manohar Jakki</h5>
+                                <h5 class="fw-bold mb-0">Bhaskar Dogga</h5>
                                 <small>Delivery Partner</small>
                             </div>
                         </div>
@@ -954,6 +979,43 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        const imgs = document.querySelectorAll('[data-img-url]');
+    
+        imgs.forEach((div) => {
+            div.style.backgroundImage = `url(./${div.getAttribute('data-img-url')})`;
+        });
+    </script>
+    <script>
+        const slider = document.querySelector('.slider');
+        const indexButtons = document.querySelectorAll('.index-container > button');
+        const arrowButtons = document.querySelectorAll('[data-index-change]');
+        let currIndex = 0;
+
+        function slide(nextIndex) {
+        if (nextIndex < 0) nextIndex = imgs.length - 1;
+        if (nextIndex >= imgs.length) nextIndex = 0;
+        indexButtons[currIndex].style.backgroundColor = '';
+        indexButtons[nextIndex].style.backgroundColor = 'white';
+        slider.style.transform = `translateX(-${(nextIndex / imgs.length) * 100}%)`;
+        currIndex = nextIndex;
+        }
+
+        indexButtons[0].style.backgroundColor = 'white';
+
+        indexButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    slide(index);
+  });
+});
+
+arrowButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const indexChange = +button.getAttribute('data-index-change');
+    slide(currIndex + indexChange);
+  });
+});
+    </script>
 </body>
 
 </html>
